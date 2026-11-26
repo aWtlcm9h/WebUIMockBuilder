@@ -1,0 +1,15 @@
+# 認証情報（絶対にコミットしない）
+gitlab-account.txt
+*.local
+
+# Node
+node_modules/
+dist/
+.env
+.env.*
+.DS_Store
+
+# ローカル環境依存
+.claude/
+.mcp.json
+*.tsbuildinfo
